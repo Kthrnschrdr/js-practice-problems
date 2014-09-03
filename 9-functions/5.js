@@ -3,3 +3,5 @@ function sum_these_numbers(a, b) {
 	var sum = a + b;
 	console.log(sum);
 }
+
+sum_these_numbers(2, 4)
