@@ -1,0 +1,1 @@
+//arrays are just collections of objects, whereas objects in Javascript have corresponding key and value pairs, showing a relationship.  This relationship makes it so that you may call a key and it will return a value, which you cannot do with arrays.

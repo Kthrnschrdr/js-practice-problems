@@ -1,0 +1,1 @@
+//objects in javascript are just like objects in Ruby: they're "things"
