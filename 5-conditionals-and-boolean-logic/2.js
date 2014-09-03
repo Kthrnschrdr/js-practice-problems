@@ -1,6 +1,7 @@
 var number = prompt("Tell me a number");
-if(number > 0) {
+var vnumber = parseInt(number);
+if(vnumber > 0) {
 	console.log('Valid');
-} else(number <= 0) {
+} else(vnumber <= 0) {
 	console.log('Invalid');
 }

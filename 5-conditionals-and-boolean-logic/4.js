@@ -1,6 +1,7 @@
 var number = prompt("Tell me a number");
-if(number%2 == 0) {
+var vnumber = parseInt(number);
+if(vnumber%2==0) {
 	console.log('even');
-} else(number%2 == 1) {
+} else {
 	console.log('odd');
 }

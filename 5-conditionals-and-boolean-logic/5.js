@@ -1,9 +1,16 @@
-var menuObject = {"coffee" => 1, "donut" => 2, "tea" => 3 , "banana" => 4, "espresso" => 5, "toast" => 6};
+var menuObject = {
+	1: "coffee",
+	2: "donut",
+	3: "tea",
+	4: "banana",
+	5: "espresso",
+	6: "toast"
+};
+var order = prompt("What menu item may I get you to eat or drink this morning?");
+var vorder = parseInt(order);
 
-var order = prompt("What menu item may I get you to eat or drink this morning?")
-order.parseInt
-if(order >= 1 && order <= 6) {
- console.log("Delivering " #{menuObject[order:]} ".")
+if(vorder >= 1 && vorder <= 6) {
+ console.log("Delivering " + menuObject[vorder] + ".");
 } else {
- console.log("I'm sorry, we don't have that.")
+ console.log("I'm sorry, we don't have that.");
 }
