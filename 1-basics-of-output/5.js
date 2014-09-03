@@ -1,4 +1,2 @@
-// console.log("Hello " * 3)
-//No, do it this way!
-
-(new Array(3 + 1)).join('Hello')
+console.log("Hello " * 3)
+//No, this does not work! It prints NaN-WHICH STANDS FOR NOT A NUMBER.

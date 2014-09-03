@@ -1,0 +1,1 @@
+// with JS if, else if, and else statements get true arguments passed in, then the block of code follows in curly brackets
